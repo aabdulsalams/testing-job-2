@@ -17,13 +17,6 @@ pipeline {
                     else {
                         echo "Now you're ${BRANCH_NAME}"
                     }
-                    echo "registry: ${registry}"
-                    echo "project: ${project}"
-                    echo "service: ${service}"
-                    echo "zone: ${zone}"
-                    echo "cluster: ${cluster}"
-                    echo "tags: ${tags}"
-                    echo "chartdir: ${chartdir}"
                 }
             }
         }
